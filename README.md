@@ -17,7 +17,7 @@ The added behaviour mentioned above is still under development, so don't expect 
 
 ## Installation
 
-### Step 1: Download CleentfaarDoctrineTablePrefixBundle using composer
+### 1) Install the bundle using composer
 
 Add CleentfaarDoctrineTablePrefixBundle in your composer.json:
 
@@ -36,7 +36,7 @@ $ php composer.phar update cleentfaar/doctrine-table-prefix-bundle
 ```
 Composer will install the bundle to your project's `vendor/cleentfaar` directory.
 
-### Step 2: Enable the bundle
+### 2) Enable the bundle
 
 Enable the bundle in the kernel:
 

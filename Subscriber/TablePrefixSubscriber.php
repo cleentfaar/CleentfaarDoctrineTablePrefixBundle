@@ -11,7 +11,7 @@
 
 namespace Cleentfaar\Bundle\DoctrineTablePrefixBundle\Subscriber;
 
-use Doctrine\Common\Persistence\Event\LoadClassMetadataEventArgs;
+use Doctrine\ORM\Event\LoadClassMetadataEventArgs;
 
 class TablePrefixSubscriber implements \Doctrine\Common\EventSubscriber
 {

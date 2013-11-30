@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Cleentfaar\DoctrineTablePrefixBundle\DependencyInjection;
+namespace Cleentfaar\Bundle\DoctrineTablePrefixBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

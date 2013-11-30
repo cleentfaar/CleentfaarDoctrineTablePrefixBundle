@@ -44,7 +44,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Cleentfaar\DoctrineTablePrefixBundle\CleentfaarDoctrineTablePrefixBundle(),
+        new Cleentfaar\Bundle\DoctrineTablePrefixBundle\CleentfaarDoctrineTablePrefixBundle(),
     );
 }
 ```

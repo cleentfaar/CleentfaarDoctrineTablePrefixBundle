@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Cleentfaar\DoctrineTablePrefixBundle;
+namespace Cleentfaar\Bundle\DoctrineTablePrefixBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

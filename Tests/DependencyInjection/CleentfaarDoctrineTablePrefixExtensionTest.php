@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Cleentfaar\DoctrineTablePrefixBundle\Test\DependencyInjection;
+namespace Cleentfaar\Bundle\DoctrineTablePrefixBundle\Test\DependencyInjection;
 
-use Cleentfaar\DoctrineTablePrefixBundle\DependencyInjection\CleentfaarDoctrineTablePrefixExtension;
+use Cleentfaar\Bundle\DoctrineTablePrefixBundle\DependencyInjection\CleentfaarDoctrineTablePrefixExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class CleentfaarDoctrineTablePrefixExtensionTest extends \PHPUnit_Framework_TestCase

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Cleentfaar\DoctrineTablePrefixBundle\Subscriber;
+namespace Cleentfaar\Bundle\DoctrineTablePrefixBundle\Subscriber;
 
 use Doctrine\Common\Persistence\Event\LoadClassMetadataEventArgs;
 

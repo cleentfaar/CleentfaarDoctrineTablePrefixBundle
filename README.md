@@ -1,6 +1,10 @@
 CleentfaarDoctrineTablePrefixBundle
 ===================================
 
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/badges/quality-score.png?s=9bf283c11413133bd29129e21fd256254c34b39b)](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/)
+[![Code Coverage](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/badges/coverage.png?s=77a62378305464e3cecfc0267b5bdb9ce8af0637)](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/)
+[![Build Status](https://travis-ci.org/cleentfaar/CleentfaarDoctrineTablePrefixBundle.png?branch=master)](https://travis-ci.org/cleentfaar/CleentfaarDoctrineTablePrefixBundle)
+
 This bundle allows doctrine to recognize any prefix you might use on your table names (e.g. acme_).
 It is an updated and revisioned version of the original bundle by GrifiS, which had a lot of compatibility issues and
 missed some key things that I needed such as having Doctrine also recognize the prefix when generating entities.

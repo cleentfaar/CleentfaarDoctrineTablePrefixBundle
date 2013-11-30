@@ -3,9 +3,11 @@ CleentfaarDoctrineTablePrefixBundle
 
 This bundle allows doctrine to recognize any prefix you might use on your table names (e.g. acme_).
 It is an updated and revisioned version of the original bundle by GrifiS, which had a lot of compatibility issues and
-missed some key things that I needed such as having Doctrine also recognize the prefix when generating entities, so it
-won't create AcmeFoobar (acme being the prefix) anymore, but just Foobar, since my prefix has no further meaning within
-the file structure.
+missed some key things that I needed such as having Doctrine also recognize the prefix when generating entities.
+
+In other words: doctrine will no longer create entities named ``AcmeFoobar`` (acme being the prefix), but only ``Foobar``,
+this is because in my use-cases, the table prefix had no further meaning within the file structure, and leaving it in
+would have added unnecessary differentiation among the entities.
 
 The added behaviour mentioned above is still under development, so don't expect more then the default behaviour yet!
 

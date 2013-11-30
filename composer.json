@@ -5,14 +5,14 @@
     "keywords": ["doctrine","symfony"],
     "license": "MIT",
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=5.3.3",
         "symfony/framework-bundle": ">=2.0,<2.3-dev",
         "symfony/yaml": "~2.3",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "~1.2"
     },
     "autoload": {
-        "psr-0": { "Cleentfaar\\DoctrineTablePrefixBundle": "" }
+        "psr-0": { "Cleentfaar\\Bundle\\DoctrineTablePrefixBundle": "" }
     },
-    "target-dir": "Cleentfaar/DoctrineTablePrefixBundle"
+    "target-dir": "Cleentfaar/Bundle/DoctrineTablePrefixBundle"
 }

@@ -1,0 +1,6 @@
+services:
+    cleentfaar_doctrine_table_prefix.subscriber:
+        class: Cleentfaar\DoctrineTablePrefixBundle\Subscriber\TablePrefixSubscriber
+        arguments: [%cleentfaar_doctrine_table_prefix.prefix%]
+        tags:
+            - { name: doctrine.event_subscriber }

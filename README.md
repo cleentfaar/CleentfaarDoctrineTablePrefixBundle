@@ -1,19 +1,18 @@
 CleentfaarDoctrineTablePrefixBundle
 ===================================
 
+[![Latest Stable Version](https://poser.pugx.org/cleentfaar/simplr/version.png)](https://packagist.org/packages/cleentfaar/ci-bundle)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/badges/quality-score.png?s=9bf283c11413133bd29129e21fd256254c34b39b)](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/)
 [![Code Coverage](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/badges/coverage.png?s=77a62378305464e3cecfc0267b5bdb9ce8af0637)](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/)
 [![Build Status](https://travis-ci.org/cleentfaar/CleentfaarDoctrineTablePrefixBundle.png?branch=master)](https://travis-ci.org/cleentfaar/CleentfaarDoctrineTablePrefixBundle)
+[![Total Downloads](https://poser.pugx.org/cleentfaar/ci-bundle/downloads.png)](https://packagist.org/packages/cleentfaar/ci-bundle)
+
+## What is it?
 
 This bundle allows doctrine to recognize any prefix you might use on your table names (e.g. acme_).
 It is an updated and revisioned version of the original bundle by GrifiS, which had a lot of compatibility issues and
-missed some key things that I needed such as having Doctrine also recognize the prefix when generating entities.
+missed some key things that I needed for my own projects.
 
-In other words: doctrine will no longer create entities named ``AcmeFoobar`` (acme being the prefix), but only ``Foobar``,
-this is because in my use-cases, the table prefix had no further meaning within the file structure, and leaving it in
-would have added unnecessary differentiation among the entities.
-
-The added behaviour mentioned above is still under development, so don't expect more then the default behaviour yet!
 
 ## Installation
 

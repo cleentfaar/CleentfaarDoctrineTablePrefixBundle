@@ -6,9 +6,6 @@ before_commands:
 
 tools:
     php_code_sniffer:
-        extensions:
-            - php
-        command: phpcs
         enabled: true
         filter:
             excluded_paths: ["vendor/*"]
@@ -17,12 +14,7 @@ tools:
     php_code_coverage: true
     php_mess_detector: true
     php_cpd:
-        command: phpcpd
-        min_lines: 5
-        min_tokens: 70
-        names:
-            - '*.php'
-        excluded_dirs: ["vendor", "files"]
+		excluded_dirs: ["vendor", "files"]
         enabled: true
     php_pdepend:
         excluded_dirs: [vendor]

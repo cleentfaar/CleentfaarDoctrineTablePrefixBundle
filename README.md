@@ -1,11 +1,12 @@
 CleentfaarDoctrineTablePrefixBundle
 ===================================
 
-[![Latest Stable Version](https://poser.pugx.org/cleentfaar/simplr/version.png)](https://packagist.org/packages/cleentfaar/ci-bundle)
+[![Latest Stable Version](https://poser.pugx.org/cleentfaar/doctrine-table-prefix-bundle/v/stable.png)](https://packagist.org/packages/cleentfaar/doctrine-table-prefix-bundle)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/badges/quality-score.png?s=9bf283c11413133bd29129e21fd256254c34b39b)](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/)
 [![Code Coverage](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/badges/coverage.png?s=77a62378305464e3cecfc0267b5bdb9ce8af0637)](https://scrutinizer-ci.com/g/cleentfaar/CleentfaarDoctrineTablePrefixBundle/)
 [![Build Status](https://travis-ci.org/cleentfaar/CleentfaarDoctrineTablePrefixBundle.png?branch=master)](https://travis-ci.org/cleentfaar/CleentfaarDoctrineTablePrefixBundle)
-[![Total Downloads](https://poser.pugx.org/cleentfaar/ci-bundle/downloads.png)](https://packagist.org/packages/cleentfaar/ci-bundle)
+[![Total Downloads](https://poser.pugx.org/cleentfaar/doctrine-table-prefix-bundle/downloads.png)](https://packagist.org/packages/cleentfaar/doctrine-table-prefix-bundle)
+
 
 ## What is it?
 
